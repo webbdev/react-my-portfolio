@@ -37,10 +37,16 @@ export default class Contact extends Component {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...this.state })
         })
-        .then(() => alert("Success!"))
+        .then(() => alert("Thank you for your message! It has been sent."))
         .catch(error => alert(error));
   
         e.preventDefault();
+        this.setState({ 
+            name: '',
+            email: '',
+            subject: '',
+            message: ''
+        })
     };
   
     render() {
