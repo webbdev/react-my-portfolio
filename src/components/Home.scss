@@ -193,6 +193,10 @@
             .project-images-box {
                 padding: 5px 15px;
 
+                @media screen and (max-width: 768px) {
+                    padding: 5px 0;
+                }
+
                 .project-img {
                     width: 100%;
                     margin-bottom: 30px;
