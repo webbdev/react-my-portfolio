@@ -85,8 +85,8 @@ export default class Home extends Component {
                                                             )}
                                                         </div>
                                                         <div className="project-links">
-                                                            <a href={project.prUrl}>View Project</a>
-                                                            <a href={project.prGithubUrl}>View Github</a>
+                                                            <a href={project.prUrl} target="_blank">View Project</a>
+                                                            <a href={project.prGithubUrl} target="_blank">View Github</a>
                                                         </div>
                                                         <a onClick={this.onCloseModal} className="back-btn">
                                                             Back
