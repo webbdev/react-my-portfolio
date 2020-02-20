@@ -7,7 +7,7 @@
         "prTitle": "Princess Shop",
         "prSubtitle": "Responsive Website",
         "prImgUrl": [
-            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/princess-shop/pr-princess-1.png",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/princess-shop/pr-princess-1.jpg",
             "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/princess-shop/pr-princess-2.jpg"
         ],
         "prDescription1": "Developed responsive e-commerce web pages for 'PrinterPix' using HTML5, CSS3, Bootstrap, Mustache.js, JSON, JS and jQuery.",
@@ -38,7 +38,7 @@
     },
     {
         "id": "pr3",
-        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/leather-book/pr-book-mini.jpg",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/leather-book/pr-lbook-mini.jpg",
         "style": "item3",
         "prImgAlt": "Project 3",
         "prTitle": "Printerpix Leather Photobooks",
