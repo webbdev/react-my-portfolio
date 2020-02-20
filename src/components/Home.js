@@ -62,38 +62,40 @@ export default class Home extends Component {
                                 { isModalVisible[project.id] &&
                                     <div className="modal-box">
                                         <div className="modal-content">
-                                            <Row style={{
-                                                textAlign: "left"
-                                            }}>
-                                                <Col sm={7} xs={12}>
-                                                    <div className="project-images-box">
-                                                        {project.prImgUrl.map((imgUrl, index) => (
-                                                            <img src={imgUrl} alt={project.prImgAlt} key={index} className="project-img" />
-                                                        ))}  
-                                                    </div>
-                                                </Col>
-                                                <Col sm={5} xs={12}>
-                                                    <div className="project-info-box">
-                                                        <h2 className="pr-title">{project.prTitle}</h2>
-                                                        <p className="pr-subtitle">{project.prSubtitle}</p>
-                                                        <p className="pr-description">{project.prDescription1}</p>
-                                                        <p className="pr-description">{project.prDescription2}</p>
-                                                        <div className="tech-stack">
-                                                            <span className="pr-skills-title">Skills:</span>
-                                                            {project.prTechStack.map((techStack, index) =>
-                                                                <span key={index} className="pr-skills">{techStack}</span>
-                                                            )}
+                                            <div className="inside-wrapper">
+                                                <Row style={{
+                                                    textAlign: "left"
+                                                }}>
+                                                    <Col sm={7} xs={12}>
+                                                        <div className="project-images-box">
+                                                            {project.prImgUrl.map((imgUrl, index) => (
+                                                                <img src={imgUrl} alt={project.prImgAlt} key={index} className="project-img" />
+                                                            ))}  
                                                         </div>
-                                                        <div className="project-links">
-                                                            <a href={project.prUrl} target="_blank">View Project</a>
-                                                            <a href={project.prGithubUrl} target="_blank">View Github</a>
+                                                    </Col>
+                                                    <Col sm={5} xs={12}>
+                                                        <div className="project-info-box">
+                                                            <h2 className="pr-title">{project.prTitle}</h2>
+                                                            <p className="pr-subtitle">{project.prSubtitle}</p>
+                                                            <p className="pr-description">{project.prDescription1}</p>
+                                                            <p className="pr-description">{project.prDescription2}</p>
+                                                            <div className="tech-stack">
+                                                                <span className="pr-skills-title">Skills:</span>
+                                                                {project.prTechStack.map((techStack, index) =>
+                                                                    <span key={index} className="pr-skills">{techStack}</span>
+                                                                )}
+                                                            </div>
+                                                            <div className="project-links">
+                                                                <a href={project.prUrl} target="_blank">View Project</a>
+                                                                <a href={project.prGithubUrl} target="_blank">View Github</a>
+                                                            </div>
+                                                            <a onClick={this.onCloseModal} className="back-btn">
+                                                                Back
+                                                            </a>
                                                         </div>
-                                                        <a onClick={this.onCloseModal} className="back-btn">
-                                                            Back
-                                                        </a>
-                                                    </div>
-                                                </Col>
-                                            </Row>
+                                                    </Col>
+                                                </Row>
+                                            </div>
                                         </div>
                                     </div>
                                 }

@@ -178,117 +178,122 @@
         background-clip: padding-box;
         box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
         margin: 0 auto;
-        padding: 30px;
-        max-width: 1100px;
         width: 100%;
 
-        @media screen and (max-width: 768px) {
-            padding: 15px;
-        }
-
-        .project-images-box {
-            padding: 5px 15px;
-
-            .project-img {
-                width: 100%;
-                margin-bottom: 30px;
-            }
-        }
-
-        .project-info-box {
-            font-size: 14px;
-            color: $textColor;
-            width: 94%;
+        .inside-wrapper {
+            max-width: 1100px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 30px;
 
             @media screen and (max-width: 768px) {
-                width: 100%;
+                padding: 15px;
+            }
+        
+            .project-images-box {
+                padding: 5px 15px;
+
+                .project-img {
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
             }
 
-            h2.pr-title {
-                text-transform: uppercase;
-                font-size: 24px;
-                letter-spacing: 3px;
-                margin-top: 5px;
-                margin-bottom: 10px;
-            }
-
-            p.pr-subtitle {
-                // text-transform: uppercase;
-                font-size: 18px;
-                letter-spacing: .5px;
-                margin-bottom: 25px;
-            }
-
-            p.pr-description {
+            .project-info-box {
                 font-size: 14px;
-                margin-bottom: 10px;
-            }
+                color: $textColor;
+                width: 94%;
 
-            .tech-stack {
-                padding: 20px 0;
-                display: flex;
-                flex-wrap: wrap;
-
-                .pr-skills-title {
-                    text-transform: uppercase;
-                    font-size: 16px;
-                    margin-right: 10px;
+                @media screen and (max-width: 768px) {
+                    width: 100%;
                 }
 
-                .pr-skills {
-                    margin-right: 7px;
-                }
-            }
-
-            .project-links {
-                padding: 20px 0;
-
-                a {
-                    display: inline-block;
-                    background-color: $lightgray;
-                    color: $textColor;
-                    border: 1px solid $lightgray;
-                    margin-right: 25px;
-                    padding: 3px 10px;
+                h2.pr-title {
                     text-transform: uppercase;
-                    text-decoration: none;
-                    transition: all .3s;
+                    font-size: 24px;
+                    letter-spacing: 3px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
 
-                    &:hover {
-                        text-decoration: none;
-                        border: 1px solid $textColor;
+                p.pr-subtitle {
+                    // text-transform: uppercase;
+                    font-size: 18px;
+                    letter-spacing: .5px;
+                    margin-bottom: 25px;
+                }
+
+                p.pr-description {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+
+                .tech-stack {
+                    padding: 20px 0;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .pr-skills-title {
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        margin-right: 10px;
+                    }
+
+                    .pr-skills {
+                        margin-right: 7px;
                     }
                 }
 
-                a[href=""] {
-                    display: none;
-                }
-            }
+                .project-links {
+                    padding: 20px 0;
 
-            .back-btn {
-                display: inline-block;
-                margin-top: 30px;
-                margin-bottom: 20px;
-                padding: 10px 20px;
-                border-radius: 0;
-                background-color: $btnBrdColor;
-                border: 1px solid $btnBrdColor;
-                color: $white;
-                font-size: 14px;
-                font-weight: 600;
-                text-transform: uppercase;
-                cursor: pointer;
-                transition: all .5s;
+                    a {
+                        display: inline-block;
+                        background-color: $lightgray;
+                        color: $textColor;
+                        border: 1px solid $lightgray;
+                        margin-right: 25px;
+                        padding: 3px 10px;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        transition: all .3s;
 
-                @media screen and (max-width: 768px) {
-                    margin-top: 20px;
-                }
-            
-                &:hover {
-                    background-color: lighten($btnBrdColor, 20%);
-                    border: 1px solid lighten($btnBrdColor, 20%);
+                        &:hover {
+                            text-decoration: none;
+                            border: 1px solid $textColor;
+                        }
+                    }
+
+                    a[href=""] {
+                        display: none;
+                    }
                 }
 
+                .back-btn {
+                    display: inline-block;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    padding: 10px 20px;
+                    border-radius: 0;
+                    background-color: $btnBrdColor;
+                    border: 1px solid $btnBrdColor;
+                    color: $white;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    transition: all .5s;
+
+                    @media screen and (max-width: 768px) {
+                        margin-top: 20px;
+                    }
+                
+                    &:hover {
+                        background-color: lighten($btnBrdColor, 20%);
+                        border: 1px solid lighten($btnBrdColor, 20%);
+                    }
+
+                }
             }
         }
     }
