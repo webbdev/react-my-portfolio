@@ -1,14 +1,14 @@
 [
     {
         "id": "pr1",
-        "prImgMini": "./princess-shop/pr-princess-mini.jpg",
+        "prImgMini": "./images/princess-shop/pr-princess-mini.jpg",
         "style": "item1",
         "prImgAlt": "Project 1",
         "prTitle": "Princess Shop",
         "prSubtitle": "Responsive Website",
         "prImgUrl": [
-            "./princess-shop/pr-princess-1.png",
-            "./princess-shop/pr-princess-2.jpg"
+            "./images/princess-shop/pr-princess-1.png",
+            "../images/princess-shop/pr-princess-2.jpg"
         ],
         "prDescription1": "Developed responsive e-commerce web pages for 'PrinterPix' using HTML5, CSS3, Bootstrap, Mustache.js, JSON, JS and jQuery.",
         "prDescription2": "Website is fully responsive and works on mobile, tablet, and desktop browsers.",
@@ -20,13 +20,13 @@
     },
     {
         "id": "pr2",
-        "prImgMini": "./mothers-day/pr-mday-mini.jpg",
+        "prImgMini": "./images/mothers-day/pr-mday-mini.jpg",
         "style": "item2",
         "prImgAlt": "Project 2",
         "prTitle": "Mother's Day",
         "prSubtitle": "Responsive Website",
         "prImgUrl": [
-            "./mothers-day/pr-mday-1.jpg"
+            "./images/mothers-day/pr-mday-1.jpg"
         ],
         "prDescription1": "Developed responsive e-commerce web pages for 'PrinterPix' using HTML5, CSS3, Bootstrap, Mustache.js, JSON, JS and jQuery.",
         "prDescription2": "Website is fully responsive and works on mobile, tablet, and desktop browsers.",
@@ -38,13 +38,13 @@
     },
     {
         "id": "pr3",
-        "prImgMini": "./leather-book/pr-book-mini.jpg",
+        "prImgMini": "./images/leather-book/pr-book-mini.jpg",
         "style": "item3",
         "prImgAlt": "Project 3",
         "prTitle": "Printerpix Leather Photobooks",
         "prSubtitle": "Landing Page",
         "prImgUrl": [
-            "/leather-book/pr-lbook-1.jpg"
+            "./images/leather-book/pr-lbook-1.jpg"
         ],
         "prDescription1": "Developed responsive e-commerce web pages for 'PrinterPix' using HTML5, CSS3, Bootstrap, JS and jQuery.",
         "prDescription2": "Web page is fully responsive and works on mobile, tablet, and desktop browsers.",
@@ -56,14 +56,14 @@
     },
     {
         "id": "pr4",
-        "prImgMini": "./wedding/pr-wedding-mini.jpg",
+        "prImgMini": "./images/wedding/pr-wedding-mini.jpg",
         "style": "item4",
         "prImgAlt": "Project 4",
         "prTitle": "Wedding",
         "prSubtitle": "Responsive Website",
         "prImgUrl": [
-            "./wedding/pr-wedding-1.jpg",
-            "./wedding/pr-wedding-2.jpg"
+            "./images/wedding/pr-wedding-1.jpg",
+            "./images/wedding/pr-wedding-2.jpg"
         ],
         "prDescription1": "Developed responsive e-commerce web pages for 'PrinterPix' using HTML5, CSS3, Bootstrap, Mustache.js, JSON, JS and jQuery.",
         "prDescription2": "Website is fully responsive and works on mobile, tablet, and desktop browsers.",
@@ -75,14 +75,14 @@
     },
     {
         "id": "pr5",
-        "prImgMini": "./my-reads/pr-myreads-mini.jpg",
+        "prImgMini": "./images/my-reads/pr-myreads-mini.jpg",
         "style": "item5",
         "prImgAlt": "Project 5",
         "prTitle": "My Reads",
         "prSubtitle": "React App",
         "prImgUrl": [
-            "./my-reads/pr-myreads-1.jpg",
-            "./my-reads/pr-myreads-2.jpg"
+            "./images/my-reads/pr-myreads-1.jpg",
+            "./images/my-reads/pr-myreads-2.jpg"
         ],
         "prDescription1": "Built bookshelf app using React, Books API.",
         "prDescription2": "This app allows user to select and categorize books as you have read, are currently reading, or want to read.",
@@ -94,14 +94,14 @@
     },
     {
         "id": "pr6",
-        "prImgMini": "./black-friday/pr-bf-mini.jpg",
+        "prImgMini": "./images/black-friday/pr-bf-mini.jpg",
         "style": "item6",
         "prImgAlt": "Project 6",
         "prTitle": "Black Friday",
         "prSubtitle": "Responsive Website",
         "prImgUrl": [
-            "./black-friday/pr-bf-1.jpg",
-            "./black-friday/pr-bf-2.png"
+            "./images/black-friday/pr-bf-1.jpg",
+            "./images/black-friday/pr-bf-2.png"
         ],
         "prDescription1": "Developed and maintain responsive e-commerce online PrinterPix store website using Shopify, Liquid, HTML5, CSS3, Bootstrap, JS and jQuery.",
         "prDescription2": "Website is fully responsive and works on mobile, tablet, and desktop browsers.",
@@ -113,16 +113,16 @@
     },
     {
         "id": "pr7",
-        "prImgMini": "/would-you-rather/pr-wouldyou-mini.jpg",
+        "prImgMini": "/images/would-you-rather/pr-wouldyou-mini.jpg",
         "style": "item7",
         "prImgAlt": "Project 7",
         "prTitle": "Would You Rather",
         "prSubtitle": "React & Redux App",
         "prImgUrl": [
-            "./would-you-rather/pr-wouldyou-1.jpg",
-            "./would-you-rather/pr-wouldyou-2.jpg",
-            "./would-you-rather/pr-wouldyou-3.jpg",
-            "./would-you-rather/pr-wouldyou-4.jpg"
+            "images/would-you-rather/pr-wouldyou-1.jpg",
+            "images/would-you-rather/pr-wouldyou-2.jpg",
+            "images/would-you-rather/pr-wouldyou-3.jpg",
+            "images/would-you-rather/pr-wouldyou-4.jpg"
         ],
         "prDescription1": "Built 'Would You Rather' game app where users are given questions and must choose one of them.",
         "prDescription2": "This app allows user to select and categorize books as you have read, are currently reading, or want to read.",

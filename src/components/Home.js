@@ -12,7 +12,7 @@ export default class Home extends Component {
     };
 
     componentDidMount() {
-        axios.get(`https://api.myjson.com/bins/ybr8o`)
+        axios.get(`https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/data.json`)
           .then(res => {
             const projects = res.data;
             this.setState({ projects });
