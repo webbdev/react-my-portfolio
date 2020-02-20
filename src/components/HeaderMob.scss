@@ -1,0 +1,78 @@
+.mynavbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+
+    .mynavbar-brand {
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #1a1a1a;
+
+        :hover {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+    }
+
+    .openbtn {
+        cursor: pointer;
+        font-size: 28px;
+        padding: 0;
+        color: rgba(0,0,0, .8);
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0, .9);
+        overflow-x: hidden;
+        transition: 0.5s;
+
+        .showMenu {
+            width: 100%;
+        }
+
+        .closebtn {
+            position: absolute;
+            top: 5px;
+            right: 30px;
+            font-size: 50px;
+            color: #808080;
+            cursor: pointer;
+        
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+}
+
+
+/*----- HeaderMob -----*/
+#visibleButton {
+opacity: 1;
+transition: all .5s;
+}
+
+#hiddenButton {
+opacity: 0;
+transition: all .5s;
+}

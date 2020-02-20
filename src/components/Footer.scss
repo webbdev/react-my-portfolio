@@ -1,0 +1,40 @@
+/*----- Footer -----*/
+footer {
+    margin: 60px auto 20px;
+    text-align: center;
+
+    .for-desktop {
+        margin: 0 auto 15px;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        .nav {
+            justify-content: center;
+            overflow: visible;
+            background-color: rgba(42, 42, 42, 1);
+            border-radius: 0;
+            border: solid 0px rgba(42, 42, 42, 1);
+        }
+    }
+
+    .for-mobile {
+        display: none;
+
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+    }
+
+    .copyright {
+        margin: 0 auto;
+
+        p {
+            margin: 0;
+            font-size: 13px;
+        }
+            
+    }
+
+}

@@ -1,0 +1,29 @@
+.nav li.nav-item a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #808080;
+    transition: color 0.4s ease 0s;
+    padding: .7rem 1rem;
+
+    &:hover,
+    &.active {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul.nav {
+        display: block;
+        
+        li.nav-item a {
+            display: block;
+            padding: 10px 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: normal;
+            transition: 0.3s;
+        }
+    }
+}

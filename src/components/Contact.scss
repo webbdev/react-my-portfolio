@@ -1,0 +1,143 @@
+@import "variables.scss";
+
+#contact-container {
+    padding: 40px 0;
+
+    @media screen and (max-width: 600px) {
+        padding: 20px 0 40px;
+    }
+
+    .pr-row {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: calc(100% + 0);
+
+        @media screen and (max-width: 768px) {
+            margin-right: -15px;
+            margin-left: -15px;
+            padding: 0 5px;
+        }
+
+        @media screen and (max-width: 600px) {
+            padding: 0;
+        }
+    
+        .cont-col {
+            flex: 50%;
+            max-width: 50%;
+            padding: 0 15px;
+
+            @media screen and (max-width: 600px) {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 24px;
+            letter-spacing: 3px;
+            margin-bottom: 30px;
+        }
+
+        .social-links {
+            margin: 33px auto 30px;
+
+            @media screen and (max-width: 600px) {
+                margin: 30px auto 40px;
+            }
+        
+            a {
+                text-decoration: none;
+            }
+
+            a.mail {
+                display: block;
+                color: $textColor;
+                margin: 0 auto 25px;
+            }
+
+            a.linkedin svg {
+                color: rgba(42, 42, 42, 1);
+                font-size: 20px;
+                margin-right: 20px;
+
+                &:hover {
+                    color: rgba(40, 103, 178, 1);
+                }
+            }
+
+            a.github svg {
+                color: rgba(42, 42, 42, 1);
+                font-size: 19px;
+
+                &:hover {
+                    color: rgba(110, 84, 148, 1);
+                }
+            }
+
+        }
+
+        form {
+            font-size: 13px;
+
+            div {
+                .input-style {
+                    margin: 5px 0;
+                    padding: 5px;
+                    border: 1px solid $btnBrdColor;
+                    width: 100%;
+                }
+        
+                textarea {
+                    min-height: 130px;
+                    resize: none;
+                }
+            }
+
+            .send-btn-box {
+                text-align: right;
+            
+                .btn {
+                    padding: 5px 15px;
+                    border-radius: 0;
+                    background-color: $btnBrdColor;
+                    border: 1px solid $btnBrdColor;
+                    color: $white;
+                    font-size: 13px;
+                    font-weight: 600;
+                
+                    &:hover {
+                        background-color: $white;
+                        border: 1px solid $btnBrdColor;
+                        color: $btnBrdColor;
+                    }
+
+                }
+            
+                .btn-reset {
+                    background-color: $white;
+                    border: 1px solid $btnBrdColor;
+                    color: $btnBrdColor;
+                    margin-right: 15px;
+
+                    &:hover {
+                        background-color: $btnBrdColor;
+                        border: 1px solid $btnBrdColor;
+                        color: $white;
+                    }
+                }
+
+            }
+        }
+        
+    }
+
+}
+
+.error-message {
+    font-size: 11px;
+    color: red;
+    text-align: left;
+    padding-left: 5px;
+}
