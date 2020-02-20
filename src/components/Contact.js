@@ -55,7 +55,7 @@ export default class Contact extends Component {
                             <a href="https://linkedin.com/" className="linkedin" target="_blank">
                                 <FontAwesomeIcon icon={['fab', 'linkedin']} />
                             </a>
-                            <a href="https://github.com/webbdev?tab=overview&from=2016-12-01&to=2016-12-31" className="github" target="_blank">
+                            <a href="https://github.com/webbdev" className="github" target="_blank">
                                 <FontAwesomeIcon icon={['fab', 'github']} />
                             </a>
                         </div>

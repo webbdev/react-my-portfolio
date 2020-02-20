@@ -122,7 +122,7 @@
             "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/would-you-rather/pr-wouldyou-1.jpg",
             "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/would-you-rather/pr-wouldyou-2.jpg",
             "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/would-you-rather/pr-wouldyou-3.jpg",
-            "ihttps://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/mages/would-you-rather/pr-wouldyou-4.jpg"
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/would-you-rather/pr-wouldyou-4.jpg"
         ],
         "prDescription1": "Built 'Would You Rather' game app where users are given questions and must choose one of them.",
         "prDescription2": "This app allows user to select and categorize books as you have read, are currently reading, or want to read.",
