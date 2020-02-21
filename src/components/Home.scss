@@ -171,6 +171,9 @@
     z-index: 1000;
     padding: 15px;
 
+    @media (max-width: 600px) {
+        padding: 5px; 
+    }
 
     .modal-content {
         position: relative;
@@ -257,10 +260,14 @@
                         color: $textColor;
                         border: 1px solid $lightgray;
                         margin-right: 25px;
-                        padding: 3px 10px;
+                        padding: 5px 10px;
                         text-transform: uppercase;
                         text-decoration: none;
                         transition: all .3s;
+
+                        @media screen and (max-width: 600px) {
+                            padding: 7px 12px;
+                        }
 
                         &:hover {
                             text-decoration: none;
