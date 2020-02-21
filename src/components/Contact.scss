@@ -13,9 +13,9 @@
         max-width: calc(100% + 0);
 
         @media screen and (max-width: 768px) {
-            margin-right: -15px;
-            margin-left: -15px;
-            padding: 0 5px;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
         }
 
         @media screen and (max-width: 600px) {
@@ -30,6 +30,7 @@
             @media screen and (max-width: 600px) {
                 flex: 100%;
                 max-width: 100%;
+                padding: 0 5px;
             }
         }
 
@@ -84,7 +85,7 @@
             div {
                 .input-style {
                     margin: 5px 0;
-                    padding: 5px;
+                    padding: 7px;
                     border: 1px solid $btnBrdColor;
                     width: 100%;
                 }
