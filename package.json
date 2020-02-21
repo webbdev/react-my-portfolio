@@ -2,6 +2,7 @@
   "name": "react-my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "author": "Tanya",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
