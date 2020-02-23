@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Row, Col } from 'react-bootstrap'
 import './Home.scss'
 
@@ -50,17 +50,17 @@ export default class Home extends Component {
                         this.state.projects.map((project) =>
                             <div key={project.id} className={`grid-item ${project.style}`}>
 
-                                <div className="img-container">
+                                <div className="img-container" onClick={() => this.showModal(project.id)}>
                                     <img src={project.prImgMini} className="item-img" alt={project.prImgAlt} />
-                                    <div className="img-middle-overlay" onClick={() => this.showModal(project.id)}>
-                                        <span className="search-icon">
+                                    <div className="img-middle-overlay">
+                                        {/* <span className="search-icon">
                                             <FontAwesomeIcon icon="search" />
-                                        </span>
+                                        </span> */}
                                     </div>
                                 </div>
                                 
                                 { isModalVisible[project.id] &&
-                                    <div className="modal-box">
+                                    <div className="modal-box" onClick={this.onCloseModal}>
                                         <div className="modal-content">
                                             <div className="inside-wrapper">
                                                 <Row style={{
@@ -86,10 +86,10 @@ export default class Home extends Component {
                                                                 )}
                                                             </div>
                                                             <div className="project-links">
-                                                                <a href={project.prUrl} target="_blank">View Project</a>
-                                                                <a href={project.prGithubUrl} target="_blank">View Github</a>
+                                                                <a href={project.prUrl} target="_blank" tabIndex="1" rel="noopener noreferrer">View Project</a>
+                                                                <a href={project.prGithubUrl} target="_blank" tabIndex="1" rel="noopener noreferrer">View Github</a>
                                                             </div>
-                                                            <a onClick={this.onCloseModal} className="back-btn">
+                                                            <a onClick={this.onCloseModal} className="back-btn" tabIndex="1">
                                                                 Back
                                                             </a>
                                                         </div>
