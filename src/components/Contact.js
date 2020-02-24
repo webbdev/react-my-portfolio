@@ -58,10 +58,10 @@ export default class Contact extends Component {
                         <h2>Contact</h2>
                         <div className="social-links">
                             <a href="mailto:forrwebdev@gmail.com" className="mail">forrwebdev@gmail.com</a>
-                            <a href="https://linkedin.com/" className="linkedin" target="_blank">
+                            <a href="https://linkedin.com/" className="linkedin" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={['fab', 'linkedin']} />
                             </a>
-                            <a href="https://github.com/webbdev" className="github" target="_blank">
+                            <a href="https://github.com/webbdev" className="github" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={['fab', 'github']} />
                             </a>
                         </div>

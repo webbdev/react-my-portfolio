@@ -51,13 +51,16 @@
         text-decoration: none;
     }
 
+
     .openbtn {
-        font-size: 28px;
+        font-size: 32px;
         padding: 0;
         color: rgba(0, 0, 0, .8);
         background-color: #fff;
         cursor: pointer;
+        line-height: 1.2;
     }
+    
 
     .overlay {
         height: 100%;
