@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import "./About.scss"
-import banner from "../utils/images/about/london4.jpg"
+import banner from "../utils/images/about/london.jpg"
+import banner1 from "../utils/images/about/chrisgower.jpg"
 
 export default class About extends Component {
 
@@ -51,7 +52,7 @@ export default class About extends Component {
                     <div className="about-info-box">
                         <div className="about-col">
                             <img src={banner} alt="Banner" />
-                            {/* <img src={banner1} alt="Banner1" /> */}
+                            <img src={banner1} alt="Banner1" />
                         </div>
                         <div className="about-col">
                             <h2>About</h2>
