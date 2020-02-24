@@ -45,7 +45,6 @@ export default class HeaderMob extends Component {
                     <div>
                         <span id={btn_id} className="openbtn" onClick={this.openBtnMenu}>&#9776;</span>
                     </div>
-                    
                 </nav>
                 <div id="myNav" className={showMenu ? "overlay" : "overlay showMenu"}>
                     <span className="closebtn" onClick={this.closeBtnMenu}>&times;</span>

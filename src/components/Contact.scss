@@ -88,6 +88,8 @@
                     padding: 7px;
                     border: 1px solid $btnBrdColor;
                     width: 100%;
+                    border-radius: 0;
+                    -webkit-border-radius: 0;
                 }
         
                 textarea {

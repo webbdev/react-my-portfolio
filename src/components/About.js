@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./About.scss"
-import banner from "../utils/images/about/chrisgower.jpg"
+import banner from "../utils/images/about/london1.jpg"
 
 
 export default class About extends Component {
