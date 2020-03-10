@@ -1,31 +1,36 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import  Home from './components/Home'
-import About from './components/About'
-import Contact from './components/Contact'
-import { NoMatch } from './components/NoMatch'
+import  Home from './components/pages/Home'
+import About from './components/pages/About'
+import Contact from './components/pages/Contact'
+import { NotFound } from './components/pages/NotFound'
 import { Layout } from './components/Layout'
-import { Footer } from './components/Footer'
-import Header from './components/Header'
+import { Footer } from './components/layout/Footer'
+import Header from './components/layout/Header'
+import Project from './components//projects/Project'
+import ScrollToTop from './components//ScrollToTop'
+
 import './App.css'
 
-export default class App extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <Layout>
-          <Router>
-            <Header />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/contact" component={Contact} />
-              <Route component={NoMatch} />
-            </Switch>
-            <Footer />
-          </Router>
-        </Layout>
-      </React.Fragment>
-    )
-  }
+const App = () => {
+  return (
+    <React.Fragment>
+      <Layout>
+        <Router>
+          <Header />
+          <ScrollToTop />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/:id" render={(props) => <Project {...props}/>} />
+            <Route component={NotFound} />
+          </Switch>
+          <Footer />
+        </Router>
+      </Layout>
+    </React.Fragment>
+  )
 }
+
+export default App

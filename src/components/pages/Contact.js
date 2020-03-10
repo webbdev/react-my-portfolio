@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import "./Contact.scss"
+import "./../Contact.scss"
 
 const encode = (data) => {
     return Object.keys(data)

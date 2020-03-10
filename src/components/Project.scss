@@ -1,0 +1,143 @@
+@import "variables.scss";
+
+/*----- Project Box -----*/
+.project-box {
+    display: flex;
+    align-items: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 15px;
+
+    .project-content {
+        background: #fff;
+        margin: 0 auto;
+
+        .inside-wrapper {
+            max-width: 1100px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 15px;
+
+            @media screen and (max-width: 768px) {
+                padding: 10px 5px;
+            }
+        
+            .project-images-box {
+                padding: 5px 15px;
+
+                @media screen and (max-width: 768px) {
+                    padding: 5px 0;
+                }
+
+                .project-img {
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .project-info-box {
+                font-size: 14px;
+                color: $textColor;
+                width: 94%;
+
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                }
+
+                h2.pr-title {
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    letter-spacing: 3px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
+
+                p.pr-subtitle {
+                    // text-transform: uppercase;
+                    font-size: 18px;
+                    letter-spacing: .5px;
+                    margin-bottom: 25px;
+                }
+
+                p.pr-description {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+
+                .tech-stack {
+                    padding: 20px 0;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .pr-skills-title {
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        margin-right: 10px;
+                    }
+
+                    .pr-skills {
+                        margin-right: 7px;
+                    }
+                }
+
+                .project-links {
+                    padding: 20px 0;
+
+                    a {
+                        display: inline-block;
+                        background-color: $lightgray;
+                        color: $textColor;
+                        border: 1px solid $lightgray;
+                        margin-right: 25px;
+                        padding: 5px 10px;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        transition: all .3s;
+
+                        @media screen and (max-width: 600px) {
+                            padding: 7px 12px;
+                        }
+
+                        &:hover {
+                            text-decoration: none;
+                            border: 1px solid $textColor;
+                        }
+                    }
+
+                    a[href=""] {
+                        display: none;
+                    }
+                }
+
+                .back-btn {
+                    display: inline-block;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    padding: 10px 20px;
+                    border-radius: 0;
+                    background-color: $btnBrdColor;
+                    border: 1px solid $btnBrdColor;
+                    color: $white;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    transition: all .5s;
+                    text-decoration: none;
+
+                    @media screen and (max-width: 768px) {
+                        margin-top: 20px;
+                    }
+                
+                    &:hover {
+                        background-color: lighten($btnBrdColor, 20%);
+                        border: 1px solid lighten($btnBrdColor, 20%);
+                        text-decoration: none;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
