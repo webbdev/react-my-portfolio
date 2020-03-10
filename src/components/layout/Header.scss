@@ -15,6 +15,11 @@
             font-weight: 700;
             letter-spacing: 3px;
             margin-bottom: 8px;
+
+            a {
+                text-decoration: none;
+                color: #212529;
+            }
         }
     }
 
@@ -24,11 +29,8 @@
         @media screen and (max-width: 768px) {
             display: block;
         }
-
     }
-
 }
-
 
 @media screen and (max-width: 768px) {
     .mynavbar nav {
@@ -51,7 +53,6 @@
         text-decoration: none;
     }
 
-
     .openbtn {
         font-size: 32px;
         padding: 0;
@@ -61,7 +62,6 @@
         line-height: 1.2;
     }
     
-
     .overlay {
         height: 100%;
         width: 0;
@@ -99,7 +99,6 @@
         color: #fff;
     }
 }
-
 
 #visibleButton {
     opacity: 1;
