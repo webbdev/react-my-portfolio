@@ -26,7 +26,7 @@ export default class Post extends Component {
 
        let postId = this.props.match.params.id;
 
-       const res = axios.get(`https://api.myjson.com/bins/1dmfeo`)
+       const res = axios.get(`https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/data-blog.json`)
 
        this.setState({ post: (await res).data.find(data => data.id === postId), loading: false })
     }

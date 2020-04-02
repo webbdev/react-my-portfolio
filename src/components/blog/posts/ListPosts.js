@@ -14,7 +14,7 @@ export default class ListPosts extends Component {
     async componentDidMount() {
         this.setState({ loading: true }) 
         const res = axios
-        .get(`https://api.myjson.com/bins/1dmfeo`)
+        .get(`https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/data-blog.json`)
 
         this.setState({ posts: (await res).data, loading: false })
     }
