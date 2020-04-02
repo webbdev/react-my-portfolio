@@ -43,8 +43,8 @@ export default class About extends Component {
     }
 
     render() {
-       
         const { skillsLNG, skillsFrameworks, skillsOther } = this.state;
+        
         return (
             <div id="about-container">
                     

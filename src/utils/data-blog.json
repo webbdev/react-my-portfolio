@@ -1,0 +1,42 @@
+[
+    {
+        "id": "post-1",
+        "author": "Admin",
+        "title": "Hello",
+        "shortDescription": "Hello, my name is Tanya, I'm a Front End Developer. Here I will be writing...",
+        "description1": "Hello, my name is Tanya, I'm a Front End Developer. Here I will be writing mostly about Front End Web technologies and development.",
+        "description2": "",
+        "description3": "",
+        "img1": "https://i.ibb.co/k6d3vHC/banner-p1.jpg",
+        "img1Alt": "Banner", 
+        "img2": "",
+        "img2Alt": "Banner",
+        "img3": "",
+        "img3Alt": "Banner"
+    },
+    {
+        "id": "post-2",
+        "author": "Admin",
+        "title": "What's the difference between using let and var in JavaScript",
+        "shortDescription": "var and let are both used for variable declaration in JavaScript, but the difference between them...",
+        "description1": "var and let are both used for variable declaration in JavaScript, but the difference between them is that var is function scoped, and let is block scoped.",
+        "description2": "let allows you to declare variables that are limited to a scope of a block statement, or expression on which it is used, unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope. The other difference between var and let is that the latter is initialized to a value only when a parser evaluates it.",
+        "description3": "Just like const the let does not create properties of the window object when declared globally.",
+        "subtitle4": "Scoping rules",
+        "description4": "Variables declared by let have their scope in the block for which they are defined, as well as in any contained sub-blocks. In this way, let works very much like var. The main difference is that the scope of a var variable is the entire enclosing function:",
+        "description5": "At the top level of programs and functions, let, unlike var, does not create a property on the global object. For example:",
+        "subtitle6": "Redeclarations",
+        "description6": "let variables cannot be re-declared while var variable can be re-declared in the same scope.",
+        "description7": "",
+        "img1": "https://i.ibb.co/QQnbLLF/banner-p2.jpg",
+        "img1Alt": "Banner", 
+        "img2": "https://i.ibb.co/fkDpT0c/code1.png",
+        "img2Alt": "code1",
+        "img3": "https://i.ibb.co/WkgbrnR/code2.png",
+        "img3Alt": "code2",
+        "img4": "https://i.ibb.co/MPt9LS0/code3.png",
+        "img4Alt": "code3",
+        "img5": "https://i.ibb.co/JcM9Y8r/code4.png",
+        "img5Alt": "code4"
+    } 
+]

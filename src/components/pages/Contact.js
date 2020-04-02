@@ -51,6 +51,9 @@ export default class Contact extends Component {
   
     render() {
         const { name, email, subject, message } = this.state;
+
+        const isEnabled = name.length > 0 && email.length > 0 && message.length > 0;
+
         return (
             <div id="contact-container">
                 <div className="pr-row">
@@ -116,7 +119,13 @@ export default class Contact extends Component {
                                     className="btn btn-reset"
                                     onClick={this.handleReset}
                                 />
-                                <input type="submit" value="Send" className="btn" />
+                                <input 
+                                    type="submit" 
+                                    value="Send" 
+                                    className="btn"
+                                    disabled={!isEnabled}
+                                    style={{ cursor: !isEnabled ? 'not-allowed' : 'pointer' }}
+                                />
                             </div>
                         </form>
                         
