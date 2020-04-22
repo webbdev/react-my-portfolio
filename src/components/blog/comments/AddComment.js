@@ -21,11 +21,10 @@ export default class AddComment extends Component {
             userName: '',
             userComment: ''
         })
-
     }
+    
     render() {
         const { userName, userComment } = this.state;
-        
         const isEnabled = userName.length > 0 && userComment.length > 0;
 
         return (

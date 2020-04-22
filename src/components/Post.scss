@@ -68,6 +68,11 @@ $hoverLinkColor: #007bff;
 
             .post-img {
                 margin: 5px 0 30px;
+
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                }
+
             }
 
             .post-img[src=""] {

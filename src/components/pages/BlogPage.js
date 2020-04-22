@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-//import Search from '../blog/Search'
 import Blog from '../blog/posts/ListPosts' 
 import './../Blog.scss'
 
