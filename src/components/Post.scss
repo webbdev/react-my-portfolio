@@ -217,6 +217,10 @@ $hoverLinkColor: #007bff;
                         transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
                     }
 
+                    @media screen and (max-width: 600px) {
+                        font-size: 1rem;
+                    }
+
                     .add-comment-btn {
                         display: inline-block;
                         color: #fff;
@@ -237,6 +241,10 @@ $hoverLinkColor: #007bff;
                         border-radius: 0;
                         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
+                        @media screen and (max-width: 600px) {
+                            font-size: 1rem;
+                        }
+                        
                         @media screen and (max-width: 480px) {
                             width: 100%;
                         }

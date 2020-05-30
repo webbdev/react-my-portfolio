@@ -34,7 +34,7 @@ export default class AddComment extends Component {
                         type="text" 
                         name="userName" 
                         ref="userName"
-                        className="input-style" 
+                        className="form-control input-style" 
                         placeholder="Name *"
                         value={userName}
                         onChange={this.onChange}
@@ -44,7 +44,7 @@ export default class AddComment extends Component {
                         type="text" 
                         name="userComment" 
                         ref="userComment"
-                        className="input-style" 
+                        className="form-control input-style" 
                         placeholder="Comment *"
                         value={userComment}
                         onChange={this.onChange}
