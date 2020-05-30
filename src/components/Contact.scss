@@ -84,17 +84,19 @@
 
             div {
                 .input-style {
-                    margin: 5px 0;
+                    margin: 5px 0 10px;
                     padding: 7px;
                     border: 1px solid $btnBrdColor;
                     width: 100%;
                     border-radius: 0;
                     -webkit-border-radius: 0;
+                    font-size: 13px;
                 }
         
                 textarea {
                     min-height: 130px;
                     resize: none;
+                    font-size: 13px;
                 }
             }
 

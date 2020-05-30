@@ -16,6 +16,7 @@ export default class Search extends Component {
                             placeholder="Search.." 
                             value={search}
                             onChange={onChange}
+                            className="form-control"
                         />
                         <span className="search-btn">
                             <i className="fa fa-search"></i>
