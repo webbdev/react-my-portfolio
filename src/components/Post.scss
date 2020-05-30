@@ -1,0 +1,255 @@
+$blogTextColor: #1a1a1a;
+$blogColorGrey: rgba(42, 42, 42, .8);
+$blogBorderColor: rgba(221, 221, 221, 0.75);
+$btnBackground: #2a2a2a;
+$hoverLinkColor: #007bff;
+
+.post-container {
+    margin: 20px auto 35px;
+    padding: 5px 15px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 15px;
+
+    @media screen and (max-width: 768px) {
+        padding: 0 5px;
+    }
+
+    .back-link {
+        color: $blogTextColor;
+    }
+    .single-post-wrapper {
+        margin: 25px auto 0;
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+        border: 1px solid $blogBorderColor;
+
+        @media screen and (max-width: 768px) {
+            padding: 25px 20px;
+        }
+
+        .single-post {
+            max-width: 750px;
+            margin: 0 auto;
+            text-align: left;
+
+            .post-author {
+                color: $blogColorGrey;
+                font-size: 12px;
+                margin-bottom: 20px;
+            }
+
+            .post-title {
+                font-size: 24px;
+                color: $blogTextColor;
+                margin-bottom: 0;
+            }
+
+            .img-box {
+                padding: 40px 0;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            p.post-description {
+                font-size: 15px;
+                color: $blogColorGrey;
+                margin-bottom: 20px;
+            }
+
+            .post-subtitle {
+                font-size: 20px;
+                padding-top: 10px;
+                margin-bottom: 20px;
+            }
+
+            .post-img {
+                margin: 5px 0 30px;
+
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                }
+
+            }
+
+            .post-img[src=""] {
+                display: none;
+            }
+
+            .post-footer {
+                border-top: 1px solid $blogBorderColor;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-top: 50px;
+                padding: 15px 0 0 0;
+                width: 100%;
+
+                div  {
+                    font-size: 12px;
+                    span {
+                        color: $blogColorGrey;
+                        font-size: 12px;
+                    }
+                }
+
+                div {
+                    .heart-icon i {
+                        font-size: 16px;
+                        color: rgba(232, 74, 67, 1);
+                        cursor: pointer;
+
+                        &:hover {
+                            color: rgba(232, 74, 67, 5);
+                        }
+                    }       
+                } 
+            } 
+        }
+    }
+
+    .comment-container {
+        border: 1px solid $blogBorderColor;
+        padding: 30px 15px;
+        margin: 30px auto;
+        text-align: center;
+
+        .inside {
+            margin: 0 auto;
+            max-width: 750px;
+
+            p {
+                cursor: pointer;
+                transition: all .5s;
+
+                &:hover {
+                    color: $hoverLinkColor;
+                }
+
+                i.far {
+                    font-size: 14px;;
+                }
+
+                span {
+                    margin-left: 6px;
+                    font-size: 15px;
+                }
+            }
+
+            .comment-box-wrapper {
+                margin: 30px 0;
+
+                .comment-box {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    text-align: left;
+                    margin-bottom: 15px;
+
+                    .comment-col {
+                        padding: 10px;
+
+                        .author-thumb {
+
+                            div {
+                                width: 40px;
+                                height: 40px;
+                                border-radius: 50%;
+                                background-color: #ccc;
+                                overflow: hidden;
+                                display: flex;
+                                flex-wrap: wrap;
+                                align-content: center;
+                                justify-content: center;
+
+                                div {
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    text-align: center;
+                                }
+                            }
+                        }
+
+                        .author-name {
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+
+                        .comment {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .comment-form-wrapper {
+                margin: 50px auto;
+                padding: 0 15px;
+                text-align: left;
+
+                @media screen and (max-width: 768px) {
+                    margin: 50px auto 30px;
+                    padding: 0 5px;
+                }
+
+                .comment-form {
+                    max-width: 470px;
+                    text-align: left;
+
+                    @media screen and (max-width: 768px) {
+                        max-width: 100%;
+                    }
+
+                    .input-style {
+                        display: block;
+                        width: 100%;
+                        padding: .375rem .75rem;
+                        margin-bottom: 15px;
+                        font-size: 14px;
+                        line-height: 1.5;
+                        color: $blogColorGrey;
+                        background-color: #fff;
+                        background-clip: padding-box;
+                        border: 1px solid $blogBorderColor;
+                        border-radius: 0;
+                        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    }
+
+                    .add-comment-btn {
+                        display: inline-block;
+                        color: #fff;
+                        background-color: $btnBackground;
+                        border-color: $btnBackground;
+                        text-align: center;
+                        white-space: nowrap;
+                        vertical-align: middle;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                        border: 1px solid transparent;
+                        padding: .375rem .75rem;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 1.5;
+                        border-radius: 0;
+                        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+                        @media screen and (max-width: 480px) {
+                            width: 100%;
+                        }
+
+                        &:hover {
+                            color: #fff;
+                            background-color: lighten( $btnBackground, 7% );
+                            border-color: lighten( $btnBackground, 7% );
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

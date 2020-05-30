@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 import "./../Contact.scss"
 
 const encode = (data) => {
@@ -51,6 +52,9 @@ export default class Contact extends Component {
   
     render() {
         const { name, email, subject, message } = this.state;
+
+        const isEnabled = name.length > 0 && email.length > 0 && message.length > 0;
+
         return (
             <div id="contact-container">
                 <div className="pr-row">
@@ -72,7 +76,7 @@ export default class Contact extends Component {
                                 <input 
                                     type="text"
                                     name="name"
-                                    className="input-style"
+                                    className="form-control input-style"
                                     placeholder="Name *"
                                     value={name}
                                     onChange={this.handleChange}
@@ -82,7 +86,7 @@ export default class Contact extends Component {
                                 <input 
                                     type="text"
                                     name="email"
-                                    className="input-style" 
+                                    className="form-control input-style" 
                                     placeholder="Email *" 
                                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                                     value={email}
@@ -93,7 +97,7 @@ export default class Contact extends Component {
                                 <input 
                                     type="text"
                                     name="subject"
-                                    className="input-style" 
+                                    className="form-control input-style" 
                                     placeholder="Subject"
                                     value={subject}
                                     onChange={this.handleChange} 
@@ -102,7 +106,7 @@ export default class Contact extends Component {
                                 <textarea 
                                     type="text"
                                     name="message"
-                                    className="input-style" 
+                                    className="form-control input-style" 
                                     placeholder="Message *"
                                     value={message}
                                     onChange={this.handleChange} 
@@ -116,7 +120,13 @@ export default class Contact extends Component {
                                     className="btn btn-reset"
                                     onClick={this.handleReset}
                                 />
-                                <input type="submit" value="Send" className="btn" />
+                                <input 
+                                    type="submit" 
+                                    value="Send" 
+                                    className="btn"
+                                    disabled={!isEnabled}
+                                    style={{ cursor: !isEnabled ? 'not-allowed' : 'pointer' }}
+                                />
                             </div>
                         </form>
                         

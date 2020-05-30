@@ -34,7 +34,7 @@ export default class Home extends Component {
                             this.state.projects.map((project) =>
                                 <div key={project.id} className={`grid-item ${project.style}`}>
 
-                                    <Link to={{ pathname: `/${project.id}`, state: { project }  }} >
+                                    <Link to={{ pathname: `/${project.id}`, state: { project } }}>
                                         <div className="img-container">
                                             <img src={project.prImgMini} className="item-img" alt={project.prImgAlt} />
                                             <div className="img-middle-overlay"></div>
