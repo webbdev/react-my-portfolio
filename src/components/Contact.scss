@@ -123,11 +123,16 @@
                     color: $white;
                     font-size: 13px;
                     font-weight: 600;
-                
+
                     &:hover {
                         background-color: $white;
                         border: 1px solid $btnBrdColor;
                         color: $btnBrdColor;
+                    }
+
+                    @media screen and (max-width: 600px) {
+                        font-size: 1rem;
+                        padding: 6px 15px;
                     }
 
                 }
