@@ -137,9 +137,27 @@
     },
     {
         "id": "pr8",
-        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-mini.jpg",
+        "prImgMini": "https://codingthesmartway.com/wp-content/uploads/2019/01/mern_logo.png",
         "style": "item8",
         "prImgAlt": "Project 8",
+        "prTitle": "My Shopping",
+        "prSubtitle": "MERN stack App",
+        "prImgUrl": [
+            ""
+        ],
+        "prDescription1": "Full stack (MERN) 'My shopping' app.",
+        "prDescription2": "",
+        "prTechStack": [
+            "React", "MongoDB", "Express.js", "Node.js", "HTML5,", "CSS3", "Materialize", "JavaScript,", "jQuery" 
+        ],
+        "prUrl": "",
+        "prGithubUrl": "" 
+    },
+    {
+        "id": "pr9",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-mini.jpg",
+        "style": "item9",
+        "prImgAlt": "Project 9",
         "prTitle": "Namaste",
         "prSubtitle": "Landing Page",
         "prImgUrl": [
