@@ -20,15 +20,18 @@
     },
     {
         "id": "pr2",
-        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-mini.jpg",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-mini.jpg",
         "style": "item2",
         "prImgAlt": "Project 2",
         "prTitle": "Reastaurant",
         "prSubtitle": "Responsive Landing Page",
         "prImgUrl": [
-            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-1.jpg"
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-1.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-2.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-3.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-4.jpg"
         ],
-        "prDescription1": "Developed responsive web page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
+        "prDescription1": "Developed responsive landing page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
         "prDescription2": "Web page is fully responsive and works on mobile, tablet, and desktop browsers.",
         "prTechStack": [
             "HTML5,", "CSS3", "SASS", "Bootstrap", "JavaScript,", "jQuery" 
@@ -134,28 +137,27 @@
     },
     {
         "id": "pr8",
-        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-mini.jpg",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-mini.jpg",
         "style": "item8",
         "prImgAlt": "Project 8",
-        "prTitle": "Project 8",
+        "prTitle": "Namaste",
         "prSubtitle": "Landing Page",
         "prImgUrl": [
-            "",
-            "",
-            "",
-            ""
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-1.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-2.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-3.jpg"
         ],
-        "prDescription1": "Developed responsive web page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
+        "prDescription1": "Developed responsive landing page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
         "prDescription2": "Web page is fully responsive and works on mobile, tablet, and desktop browsers.",
         "prTechStack": [
             "HTML5,", "CSS3", "SASS", "Bootstrap", "JavaScript,", "jQuery" 
         ],
-        "prUrl": "",
-        "prGithubUrl": "" 
+        "prUrl": "https://webbdev.github.io/namaste/",
+        "prGithubUrl": "https://github.com/webbdev/namaste" 
     },
     {
         "id": "pr9",
-        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-mini.jpg",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-mini.jpg",
         "style": "item9",
         "prImgAlt": "Project 9",
         "prTitle": "Project 9",
@@ -176,7 +178,7 @@
     },
     {
         "id": "pr10",
-        "prImgMini": "https://www.cmarix.com/wp-content/uploads/2019/09/Mern.jpg",
+        "prImgMini": "https://miro.medium.com/max/2560/1*k0SazfSJ-tPSBbt2WDYIyw.png",
         "style": "item10",
         "prImgAlt": "Project 10",
         "prTitle": "Project 10",
