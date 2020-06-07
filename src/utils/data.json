@@ -23,18 +23,18 @@
         "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-mini.jpg",
         "style": "item2",
         "prImgAlt": "Project 2",
-        "prTitle": "Mother's Day",
-        "prSubtitle": "Responsive Website",
+        "prTitle": "Reastaurant",
+        "prSubtitle": "Responsive Landing Page",
         "prImgUrl": [
             "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-1.jpg"
         ],
-        "prDescription1": "Developed responsive e-commerce web pages for 'PrinterPix' using HTML5, CSS3, Bootstrap, Mustache.js, JSON, JS and jQuery.",
-        "prDescription2": "Website is fully responsive and works on mobile, tablet, and desktop browsers.",
+        "prDescription1": "Developed responsive web page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
+        "prDescription2": "Web page is fully responsive and works on mobile, tablet, and desktop browsers.",
         "prTechStack": [
-            "HTML5,", "CSS3,", "Bootstrap,", "JavaScript,", "Mustache.js,", "JSON,", "jQuery"
+            "HTML5,", "CSS3", "SASS", "Bootstrap", "JavaScript,", "jQuery" 
         ],
-        "prUrl": "https://www.printerpix.com/mothers-day-2019/",
-        "prGithubUrl": ""  
+        "prUrl": "https://webbdev.github.io/restaurant/",
+        "prGithubUrl": "https://github.com/webbdev/restaurant"  
     },
     {
         "id": "pr3",
@@ -131,5 +131,68 @@
         ],
         "prUrl": "https://wouldyourather-game.netlify.com/",
         "prGithubUrl": "https://github.com/webbdev/would-you-rather-app" 
+    },
+    {
+        "id": "pr8",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-mini.jpg",
+        "style": "item8",
+        "prImgAlt": "Project 8",
+        "prTitle": "Project 8",
+        "prSubtitle": "Landing Page",
+        "prImgUrl": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "prDescription1": "Developed responsive web page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
+        "prDescription2": "Web page is fully responsive and works on mobile, tablet, and desktop browsers.",
+        "prTechStack": [
+            "HTML5,", "CSS3", "SASS", "Bootstrap", "JavaScript,", "jQuery" 
+        ],
+        "prUrl": "",
+        "prGithubUrl": "" 
+    },
+    {
+        "id": "pr9",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-mini.jpg",
+        "style": "item9",
+        "prImgAlt": "Project 9",
+        "prTitle": "Project 9",
+        "prSubtitle": "Landing Page",
+        "prImgUrl": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "prDescription1": "Developed responsive web page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
+        "prDescription2": "Web page is fully responsive and works on mobile, tablet, and desktop browsers.",
+        "prTechStack": [
+            "HTML5,", "CSS3", "SASS", "Bootstrap", "JavaScript,", "jQuery" 
+        ],
+        "prUrl": "",
+        "prGithubUrl": "" 
+    },
+    {
+        "id": "pr10",
+        "prImgMini": "https://www.cmarix.com/wp-content/uploads/2019/09/Mern.jpg",
+        "style": "item10",
+        "prImgAlt": "Project 10",
+        "prTitle": "Project 10",
+        "prSubtitle": "MERN stack App",
+        "prImgUrl": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "prDescription1": "Full stack (MERN) 'activity tracker' amd 'shopping' apps",
+        "prDescription2": "",
+        "prTechStack": [
+            "React", "MongoDB", "Express.js", "Node.js", "HTML5,", "CSS3", "Bootstrap", "Materialize", "JavaScript,", "jQuery" 
+        ],
+        "prUrl": "",
+        "prGithubUrl": "" 
     }
 ]

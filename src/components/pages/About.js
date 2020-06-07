@@ -23,19 +23,21 @@ export default class About extends Component {
                 {type: "Angular.js"},
                 {type: "Bootstrap"},
                 {type: "Mustache.js"},
-                {type: "GatsbyJS"}
+                {type: "GatsbyJS"},
+                {type: "Express.js"}
             ],
             skillsOther: [
                 {type: "Git/GitHub"},
-                {type: "APIs"},
-                {type: "JSON"},
                 {type: "npm"},
                 {type: "yarn"},
+                {type: "APIs"},
+                {type: "JSON"},
+                {type: "MongoDB"},
                 {type: "WAI-ARIA"},
                 {type: "Accessibility"},
-                {type: "Shopify"},
                 {type: "Jest"},
                 {type: "Enzyme"},
+                {type: "Shopify"},
                 {type: "Visual Studio Code"},
                 {type: "Photoshop"}
             ]
