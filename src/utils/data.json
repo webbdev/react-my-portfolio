@@ -1,21 +1,21 @@
 [
     {
         "id": "pr1",
-        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/black-friday/pr-bf-mini.jpg",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/princess-shop/pr-princess-mini.jpg",
         "style": "item1",
         "prImgAlt": "Project 1",
-        "prTitle": "Black Friday",
+        "prTitle": "Princess Shop",
         "prSubtitle": "Responsive Website",
         "prImgUrl": [
-            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/black-friday/pr-bf-1.jpg",
-            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/black-friday/pr-bf-2.jpg"
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/princess-shop/pr-princess-1.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/princess-shop/pr-princess-2.jpg"
         ],
-        "prDescription1": "Developed and maintain responsive e-commerce online PrinterPix store website using Shopify, Liquid, HTML5, CSS3, Bootstrap, JS and jQuery.",
+        "prDescription1": "Developed responsive e-commerce web pages for 'PrinterPix' using HTML5, CSS3, Bootstrap, Mustache.js, JSON, JS and jQuery.",
         "prDescription2": "Website is fully responsive and works on mobile, tablet, and desktop browsers.",
         "prTechStack": [
-            "Shopify,", "Liquid,", "HTML5,", "CSS3,", "Bootstrap,", "JavaScript,", "jQuery"
+            "HTML5,", "CSS3,", "Bootstrap,", "JavaScript,", "Mustache.js,", "JSON,", "jQuery"
         ],
-        "prUrl": "https://blackfriday2.printerpix.co.uk/",
+        "prUrl": "https://www.printerpix.com/princess-shop-mink-blankets/",
         "prGithubUrl": "" 
     },
     {
@@ -97,21 +97,21 @@
     },
     {
         "id": "pr6",
-        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/princess-shop/pr-princess-mini.jpg",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/black-friday/pr-bf-mini.jpg",
         "style": "item6",
         "prImgAlt": "Project 6",
-        "prTitle": "Princess Shop",
+        "prTitle": "Black Friday",
         "prSubtitle": "Responsive Website",
         "prImgUrl": [
-            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/princess-shop/pr-princess-1.jpg",
-            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/princess-shop/pr-princess-2.jpg"
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/black-friday/pr-bf-1.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/black-friday/pr-bf-2.jpg"
         ],
-        "prDescription1": "Developed responsive e-commerce web pages for 'PrinterPix' using HTML5, CSS3, Bootstrap, Mustache.js, JSON, JS and jQuery.",
+        "prDescription1": "Developed and maintain responsive e-commerce online PrinterPix store website using Shopify, Liquid, HTML5, CSS3, Bootstrap, JS and jQuery.",
         "prDescription2": "Website is fully responsive and works on mobile, tablet, and desktop browsers.",
         "prTechStack": [
-            "HTML5,", "CSS3,", "Bootstrap,", "JavaScript,", "Mustache.js,", "JSON,", "jQuery"
+            "Shopify,", "Liquid,", "HTML5,", "CSS3,", "Bootstrap,", "JavaScript,", "jQuery"
         ],
-        "prUrl": "https://www.printerpix.com/princess-shop-mink-blankets/",
+        "prUrl": "https://blackfriday2.printerpix.co.uk/",
         "prGithubUrl": "" 
     },
     {
@@ -156,19 +156,16 @@
         "prGithubUrl": "https://github.com/webbdev/namaste" 
     },
     {
-        "id": "pr10",
-        "prImgMini": "https://www.cmarix.com/wp-content/uploads/2019/09/Mern.jpg",
-        "style": "item10",
-        "prImgAlt": "Project 10",
-        "prTitle": "Project - Activity tracker",
+        "id": "pr9",
+        "prImgMini": "https://i.morioh.com/67feeaf72f.png",
+        "style": "item9",
+        "prImgAlt": "Project 9",
+        "prTitle": "Activity Tracker",
         "prSubtitle": "MERN stack App",
         "prImgUrl": [
-            "",
-            "",
-            "",
             ""
         ],
-        "prDescription1": "Full stack (MERN) 'activity tracker' amd 'shopping' apps",
+        "prDescription1": "Full stack (MERN) 'Activity tracker' app.",
         "prDescription2": "",
         "prTechStack": [
             "React", "MongoDB", "Express.js", "Node.js", "HTML5,", "CSS3", "Bootstrap", "Materialize", "JavaScript,", "jQuery" 
