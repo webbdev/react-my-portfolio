@@ -137,7 +137,7 @@
     },
     {
         "id": "pr8",
-        "prImgMini": "https://codingthesmartway.com/wp-content/uploads/2019/01/mern_logo.png",
+        "prImgMini": "https://www.cmarix.com/wp-content/uploads/2019/09/Mern.jpg",
         "style": "item8",
         "prImgAlt": "Project 8",
         "prTitle": "My Shopping",
@@ -174,10 +174,10 @@
         "prGithubUrl": "https://github.com/webbdev/namaste" 
     },
     {
-        "id": "pr9",
+        "id": "pr10",
         "prImgMini": "https://i.morioh.com/139b757e13.png",
-        "style": "item9",
-        "prImgAlt": "Project 9",
+        "style": "item10",
+        "prImgAlt": "Project 10",
         "prTitle": "Activity Tracker",
         "prSubtitle": "MERN stack App",
         "prImgUrl": [
