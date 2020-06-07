@@ -110,5 +110,14 @@
                 grid-row: 3 / span 2;
             }
         }
+
+        .item9 {
+            @extend .grid-item;
+            grid-column: 2 / span 2;
+
+            @media (max-width: 600px) {
+                grid-column: 1;
+            }
+        }
     }
 }
