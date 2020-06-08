@@ -140,17 +140,17 @@
         "prImgMini": "https://www.cmarix.com/wp-content/uploads/2019/09/Mern.jpg",
         "style": "item8",
         "prImgAlt": "Project 8",
-        "prTitle": "My Shopping",
+        "prTitle": "Activity Tracker",
         "prSubtitle": "MERN stack App",
         "prImgUrl": [
             ""
         ],
-        "prDescription1": "Full stack (MERN) 'My shopping' app.",
+        "prDescription1": "Full stack (MERN) 'Activity tracker' app.",
         "prDescription2": "",
         "prTechStack": [
-            "React", "MongoDB", "Express.js", "Node.js", "HTML5,", "CSS3", "Materialize", "JavaScript,", "jQuery" 
+            "React", "MongoDB", "Express.js", "Node.js", "HTML5,", "CSS3", "Bootstrap", "Materialize", "JavaScript,", "jQuery" 
         ],
-        "prUrl": "",
+        "prUrl": "https://activitytrackers.herokuapp.com/",
         "prGithubUrl": "" 
     },
     {
@@ -173,22 +173,5 @@
         "prUrl": "https://webbdev.github.io/namaste/",
         "prGithubUrl": "https://github.com/webbdev/namaste" 
     },
-    {
-        "id": "pr10",
-        "prImgMini": "https://i.morioh.com/139b757e13.png",
-        "style": "item10",
-        "prImgAlt": "Project 10",
-        "prTitle": "Activity Tracker",
-        "prSubtitle": "MERN stack App",
-        "prImgUrl": [
-            ""
-        ],
-        "prDescription1": "Full stack (MERN) 'Activity tracker' app.",
-        "prDescription2": "",
-        "prTechStack": [
-            "React", "MongoDB", "Express.js", "Node.js", "HTML5,", "CSS3", "Bootstrap", "Materialize", "JavaScript,", "jQuery" 
-        ],
-        "prUrl": "https://activitytrackers.herokuapp.com/",
-        "prGithubUrl": "" 
-    }
+    
 ]
