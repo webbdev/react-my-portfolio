@@ -137,18 +137,19 @@
     },
     {
         "id": "pr8",
-        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mern/mern-mini.jpg",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mern/pr-mern-mini.jpg",
         "style": "item8",
         "prImgAlt": "Project 8",
         "prTitle": "Activity Tracker",
         "prSubtitle": "MERN stack App",
         "prImgUrl": [
-            ""
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mern/pr-mern-1.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mern/pr-mern-2.jpg"
         ],
-        "prDescription1": "Full stack (MERN) 'Activity tracker' app.",
+        "prDescription1": "Built Full stack (MERN) 'Activity tracker' app.",
         "prDescription2": "",
         "prTechStack": [
-            "React", "MongoDB", "Express.js", "Node.js", "HTML5,", "CSS3", "Bootstrap", "Materialize", "JavaScript,", "jQuery" 
+            "React,", "MongoDB,", "Express.js,", "Node.js,", "HTML5,", "CSS3,", "Bootstrap,", "JavaScript"
         ],
         "prUrl": "https://activitytrackers.herokuapp.com/",
         "prGithubUrl": "" 
@@ -168,7 +169,7 @@
         "prDescription1": "Developed responsive landing page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
         "prDescription2": "Web page is fully responsive and works on mobile, tablet, and desktop browsers.",
         "prTechStack": [
-            "HTML5,", "CSS3", "SASS", "Bootstrap", "JavaScript,", "jQuery" 
+            "HTML5,", "CSS3/SASS,", "Bootstrap,", "JavaScript,", "jQuery" 
         ],
         "prUrl": "https://webbdev.github.io/namaste/",
         "prGithubUrl": "https://github.com/webbdev/namaste" 
