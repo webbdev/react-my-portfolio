@@ -110,15 +110,22 @@
                 grid-row: 3 / span 2;
             }
         }
-          
+
         .item8 {
             @extend .grid-item;
-            grid-column: 1;
-            grid-row: 4 / span 2;
+            grid-column: 1 / span 1;
 
             @media (max-width: 600px) {
-                grid-column: 2;
-                grid-row: 5 / span 2;
+                grid-column: 1;
+            }
+        }
+
+        .item9 {
+            @extend .grid-item;
+            grid-column: 2 / span 1;
+
+            @media (max-width: 600px) {
+                grid-column: 1;
             }
         }
     }

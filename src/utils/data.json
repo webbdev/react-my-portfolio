@@ -15,25 +15,28 @@
         "prTechStack": [
             "HTML5,", "CSS3,", "Bootstrap,", "JavaScript,", "Mustache.js,", "JSON,", "jQuery"
         ],
-        "prUrl": "https://www.printerpix.com/princess-shop/",
+        "prUrl": "https://www.printerpix.com/princess-shop-mink-blankets/",
         "prGithubUrl": "" 
     },
     {
         "id": "pr2",
-        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-mini.jpg",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-mini.jpg",
         "style": "item2",
         "prImgAlt": "Project 2",
-        "prTitle": "Mother's Day",
-        "prSubtitle": "Responsive Website",
+        "prTitle": "Reastaurant",
+        "prSubtitle": "Landing Page",
         "prImgUrl": [
-            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mothers-day/pr-mday-1.jpg"
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-1.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-2.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-3.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/restaurant/pr-restaurant-4.jpg"
         ],
-        "prDescription1": "Developed responsive e-commerce web pages for 'PrinterPix' using HTML5, CSS3, Bootstrap, Mustache.js, JSON, JS and jQuery.",
-        "prDescription2": "Website is fully responsive and works on mobile, tablet, and desktop browsers.",
+        "prDescription1": "Developed responsive landing page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
+        "prDescription2": "Web page is fully responsive and works on mobile, tablet, and desktop browsers.",
         "prTechStack": [
-            "HTML5,", "CSS3,", "Bootstrap,", "JavaScript,", "Mustache.js,", "JSON,", "jQuery"
+            "HTML5,", "CSS3", "SASS", "Bootstrap", "JavaScript,", "jQuery" 
         ],
-        "prUrl": "https://www.printerpix.com/mothers-day-2019/",
+        "prUrl": "https://webbdev.github.io/restaurant/",
         "prGithubUrl": ""  
     },
     {
@@ -131,5 +134,44 @@
         ],
         "prUrl": "https://wouldyourather-game.netlify.com/",
         "prGithubUrl": "https://github.com/webbdev/would-you-rather-app" 
+    },
+    {
+        "id": "pr8",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mern/mern-mini.jpg",
+        "style": "item8",
+        "prImgAlt": "Project 8",
+        "prTitle": "Activity Tracker",
+        "prSubtitle": "MERN stack App",
+        "prImgUrl": [
+            ""
+        ],
+        "prDescription1": "Full stack (MERN) 'Activity tracker' app.",
+        "prDescription2": "",
+        "prTechStack": [
+            "React", "MongoDB", "Express.js", "Node.js", "HTML5,", "CSS3", "Bootstrap", "Materialize", "JavaScript,", "jQuery" 
+        ],
+        "prUrl": "https://activitytrackers.herokuapp.com/",
+        "prGithubUrl": "" 
+    },
+    {
+        "id": "pr9",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-mini.jpg",
+        "style": "item9",
+        "prImgAlt": "Project 9",
+        "prTitle": "Namaste",
+        "prSubtitle": "Landing Page",
+        "prImgUrl": [
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-1.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-2.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/nmaste/pr-nmaste-3.jpg"
+        ],
+        "prDescription1": "Developed responsive landing page's template using HTML5, CSS3/SASS, Bootstrap, JS and jQuery.",
+        "prDescription2": "Web page is fully responsive and works on mobile, tablet, and desktop browsers.",
+        "prTechStack": [
+            "HTML5,", "CSS3", "SASS", "Bootstrap", "JavaScript,", "jQuery" 
+        ],
+        "prUrl": "https://webbdev.github.io/namaste/",
+        "prGithubUrl": "https://github.com/webbdev/namaste" 
     }
+    
 ]
