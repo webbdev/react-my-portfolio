@@ -137,7 +137,7 @@
     },
     {
         "id": "pr8",
-        "prImgMini": "https://www.cmarix.com/wp-content/uploads/2019/09/Mern.jpg",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/mern/mern-mini.jpg",
         "style": "item8",
         "prImgAlt": "Project 8",
         "prTitle": "Activity Tracker",
@@ -172,6 +172,6 @@
         ],
         "prUrl": "https://webbdev.github.io/namaste/",
         "prGithubUrl": "https://github.com/webbdev/namaste" 
-    },
+    }
     
 ]
