@@ -173,6 +173,27 @@
         ],
         "prUrl": "https://webbdev.github.io/namaste/",
         "prGithubUrl": "https://github.com/webbdev/namaste" 
+    },
+    {
+        "id": "pr10",
+        "prImgMini": "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/my-shopping/pr-shopping-mini.jpg",
+        "style": "item10",
+        "prImgAlt": "Project 10",
+        "prTitle": "My Shopping",
+        "prSubtitle": "MERN stack App",
+        "prImgUrl": [
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/my-shopping/pr-shopping-1.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/my-shopping/pr-shopping-2.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/my-shopping/pr-shopping-3.jpg",
+            "https://raw.githubusercontent.com/webbdev/react-my-portfolio/master/src/utils/images/my-shopping/pr-shopping-4.jpg"
+        ],
+        "prDescription1": "Built Full stack (MERN) 'My Shopping' app.",
+        "prDescription2": "",
+        "prTechStack": [
+            "React,", "MongoDB,", "Express.js,", "Node.js,", "HTML5,", "CSS3,", "Materialize,", "JavaScript,", "React-vis"
+        ],
+        "prUrl": "https://my-shopping-app.herokuapp.com/",
+        "prGithubUrl": ""
     }
     
 ]
