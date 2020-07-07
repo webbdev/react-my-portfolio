@@ -8,7 +8,8 @@ import './../Project.scss'
 class Project extends Component {
 
     state = {
-        project: {}
+        project: {},
+        loading: false
     }
 
     async componentDidMount() {
@@ -22,7 +23,8 @@ class Project extends Component {
     }
 
     render() {
-        const { loading, prImgUrl, prImgAlt, prTitle, prSubtitle, prDescription1, prDescription2, prTechStack, prUrl, prGithubUrl } = this.state.project;
+        const { loading } = this.state;
+        const { prImgUrl, prImgAlt, prTitle, prSubtitle, prDescription1, prDescription2, prTechStack, prUrl, prGithubUrl } = this.state.project;
         
         return (  
             <div className="project-box">
