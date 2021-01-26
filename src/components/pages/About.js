@@ -59,7 +59,7 @@ export default class About extends Component {
                             <h2>About</h2>
                             <div className="aboutme">
                                 <p>I'm a Front End Web Developer from Lithuania, but currently living in London, UK, and loving it.</p> 
-                                <p>I enjoy creating and coding clean, responsive, user-friendly and functional websites, and web applications using the latest HTML5, CSS3, JavaScript, React, jQuery and other web technologies.</p>
+                                <p>I enjoy creating and coding clean, responsive, user-friendly and functional websites, and web applications using the latest HTML5, CSS3, JavaScript, React, Node.js and other web technologies.</p>
                             </div>
 
                             <div className="skills-bar-box">
@@ -67,7 +67,7 @@ export default class About extends Component {
                                 <div className="skills-bar-col">
                                     <h6>Languages:</h6>
                                     <div className="skills">
-                                        {skillsLNG.map((skill, index) => 
+                                        {skillsLNG.map(skill => 
                                             <div
                                                 key={skill.type}
                                                 style={{ width: `${skill.level}%`}}
